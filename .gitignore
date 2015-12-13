@@ -1,5 +1,5 @@
 .idea/*
 other/*
-public/from/*
-public/to/*
+logs/*
+vendor/*
 composer.lock
