@@ -1,0 +1,5 @@
+.idea/*
+other/*
+public/from/*
+public/to/*
+composer.lock

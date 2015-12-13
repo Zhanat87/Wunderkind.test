@@ -1,0 +1,21 @@
+{
+    "name": "wunderkind test",
+    "description": "test project",
+    "keywords": ["RabbitMQ", "async"],
+    "homepage": "http://wunderkind.test/",
+    "type": "project",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "": ".",
+            "api\\": "apps/api/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/var-dumper": "3.0.*@dev",
+        "fzaninotto/faker": "1.6.*@dev",
+        "videlalvaro/php-amqplib": "dev-master",
+        "guzzlehttp/guzzle": "^6.1"
+    }
+}
